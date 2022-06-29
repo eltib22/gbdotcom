@@ -1,0 +1,51 @@
+*{
+		background-color: black;
+		color: whitesmoke;
+		font-family: Avenir Next;
+		text-align: center;
+  		}
+  
+li {
+		display: inline;
+		margin-right: 10px;
+    	}
+li.past {
+		font-family: Avenir Next;
+		font-weight: bold;
+		font-size: 40px;
+		letter-spacing: 1em;
+		text-shadow: 2px 2px 7px #adadad;
+         }
+li.productions {
+		font-family: Avenir Next Condensed;
+		font-weight: ultra light;
+		font-size: 50px;
+		text-shadow: 2px 2px 7px #adadad;
+        }
+                
+img {
+		moz-box-shadow: 0px 0px 50px #adadad;
+		webkit-box-shadow: 0px 0px 50px #adadad;
+        box-shadow: 0px 0px 50px #adadad;
+        }
+            
+#highhorse {
+		margin: 50px auto 50px auto;
+        }
+             
+#imc {
+		margin: 50px auto 50px auto;
+        }
+        
+#raisincane {
+		margin: 50px auto 50px auto;
+             }
+             
+#sued {
+		margin: 50px auto 50px auto;
+       }  
+    
+#forcemajeure {
+		margin: 50px auto 50px auto;
+        }                       
+  
