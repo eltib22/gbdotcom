@@ -6,25 +6,25 @@
    
 li {
 		display: inline;
-		margin-right: 10px;
+		margin-right: 20px;
 		}
 		
-li.production {
+li.pagetitle {
 		font-family: Avenir Next;
 		font-weight: bold;
-		font-size: 40px;
+		font-size: 80px;
 		letter-spacing: .75em;
-		text-shadow: 2px 2px 7px #adadad;
+		text-shadow: 2px 2px 7px #ab0707;
         }
-li.consolidated {
+li.production {
 		font-family: Avenir Next Condensed;
 		font-weight: ultra light;
-		font-size: 50px;
+		font-size: 40px;
 		text-shadow: 2px 2px 7px #adadad;
         }
 
 body {
-		background-image: < url(images/Recursion Loop 14.25.18.png);
+		background-image: url(images/elmiccopy.jpeg);
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-color: black;
