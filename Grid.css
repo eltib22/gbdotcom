@@ -33,7 +33,7 @@
     font-size: 1.1rem;
     font-weight: 600;
     background-color: teal;
-    background-image: url("https://editor.p5js.org/eltib22/full/yzxBtSoKs");
+    background-image: linear-gradient(red, rgb(0, 255, 89), blue);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
