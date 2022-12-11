@@ -36,10 +36,14 @@ body {
 #description {
 		margin: 100px 200px 50px 200px;
 		line-height: 1.5em;
+		font-size: larger;
+		font-style: oblique;
+		font-weight: 500;
          }  
               
 #contact {
 		margin: 20px auto 100px auto
+		
         }
                                        
                  
