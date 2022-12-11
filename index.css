@@ -42,7 +42,10 @@ body {
          }  
               
 #contact {
-		margin: 20px auto 100px auto
+		margin: 20px 100px 100px 400px;
+		font-size: small;
+		font-style: normal;
+		font-stretch: semi-expanded;
 		
         }
                                        
