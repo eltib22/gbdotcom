@@ -28,9 +28,9 @@
     align-items: flex-start;
     justify-content: flex-end;
     padding: calc(var(--gap) * 1.5);
-    min-height: 160px;
+    min-height: 320px;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 2.2rem;
     font-weight: 600;
     background-color: teal;
     background-image: linear-gradient(red, rgb(0, 255, 89), blue);
