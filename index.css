@@ -5,16 +5,16 @@
 		}
    
 li {
-		display: inline;
-		margin-right: 10px;
+		display: -moz-inline-box;
+		margin-right: 50%;
 		}
 		
 li.production {
 		font-family: Avenir Next;
 		font-weight: bold;
-		font-size: 40px;
+		font-size: 120px;
 		letter-spacing: .75em;
-		text-shadow: 2px 2px 7px #adadad;
+		text-shadow: 4px 4px 7px #230202;
         }
 li.consolidated {
 		font-family: Avenir Next Condensed;
