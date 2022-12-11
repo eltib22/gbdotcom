@@ -51,13 +51,17 @@ body {
 		font-size: larger;
 		font-style: oblique;
 		font-weight: 500;
+		color: aqua;
          }  
               
 #contact {
-		margin: 20px 100px 100px 400px;
+	background-color:black;	
+	margin: 20px 100px 100px 400px;
 		font-size: small;
 		font-style: normal;
 		font-stretch: semi-expanded;
+		color:rgb(238, 235, 21)
+		
 		
         }
                                        
