@@ -1,5 +1,5 @@
 *{
-		color: whitesmoke;
+		/* color: whitesmoke; */
 		font-family: Avenir Next;
 		text-align: center;
 		}
@@ -26,7 +26,7 @@ li.consolidated {
 body {
 		background-image: url("images/background.png");
 		/* background-color: #9e1a1a; */
-  		height: 500px;
+  		height: 1000px;
   		background-position: center;
   		background-repeat: no-repeat;
   		background-size: cover;
