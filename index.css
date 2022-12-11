@@ -1,7 +1,6 @@
    
 #header-pages {
-		display: -moz-inline-box;
-		margin-right: 50%;
+		margin: 100px; 
 		font-family: Avenir Next;
 			font-weight: bold;
 			font-size: 240px;
@@ -9,6 +8,20 @@
 			text-shadow: 4px 4px 7px #950cb1;
 		}
 
+		body {
+			font-family: Avenir Next Condensed;
+			font-weight: ultra light;
+			font-size: 50px;
+			text-shadow: 2px 2px 7px #adadad;
+			background-image: url("/images/background.png");
+			background-color: #9e1a1a;
+				  height: 1000px;
+				  background-position: center;
+				  background-repeat: no-repeat;
+				  background-size: cover;
+				  position: relative;
+				} 
+		
 		p {
 			font-family: Avenir Next;
 			font-weight: normal;
@@ -17,30 +30,9 @@
 			text-shadow: 4px 4px 7px #230202;
 			}
 
-li.consolidated {
-		font-family: Avenir Next Condensed;
-		font-weight: ultra light;
-		font-size: 50px;
-		text-shadow: 2px 2px 7px #adadad;
-        }
-
-body {
-	font-family: Avenir Next Condensed;
-	font-weight: ultra light;
-	font-size: 50px;
-	text-shadow: 2px 2px 7px #adadad;
-	/* background-image: url("https://github.com/eltib22/gbdotcom/blob/main/images/background.png"); */
-		background-color: #9e1a1a;
-  		height: 1000px;
-  		background-position: center;
-  		background-repeat: no-repeat;
-  		background-size: cover;
-  		position: relative;
-		} 
-
 	.hero-image {
-			background-image: url("https://www.dropbox.com/home/GB%20Mastah/gb%20dot%20com/images?preview=Recursion+Loop+14.25.08.png");
-			background-color: #cccccc;
+			background-image: url("/images/background.png");
+			background-color: #8c0e0e;
 			height: 500px;
 			background-position: center;
 			background-repeat: no-repeat;
