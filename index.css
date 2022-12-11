@@ -1,12 +1,17 @@
    
-li {
+#header-pages {
 		display: -moz-inline-box;
 		margin-right: 50%;
+		font-family: Avenir Next;
+			font-weight: bold;
+			font-size: 240px;
+			letter-spacing: 1.5em;
+			text-shadow: 4px 4px 7px #950cb1;
 		}
 
 		p {
 			font-family: Avenir Next;
-			font-weight: bold;
+			font-weight: normal;
 			font-size: 120px;
 			letter-spacing: .75em;
 			text-shadow: 4px 4px 7px #230202;
@@ -20,8 +25,12 @@ li.consolidated {
         }
 
 body {
-		background-image: url("https://github.com/eltib22/gbdotcom/blob/main/images/background.png");
-		/* background-color: #9e1a1a; */
+	font-family: Avenir Next Condensed;
+	font-weight: ultra light;
+	font-size: 50px;
+	text-shadow: 2px 2px 7px #adadad;
+	/* background-image: url("https://github.com/eltib22/gbdotcom/blob/main/images/background.png"); */
+		background-color: #9e1a1a;
   		height: 1000px;
   		background-position: center;
   		background-repeat: no-repeat;
