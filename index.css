@@ -15,12 +15,28 @@
 			text-shadow: 2px 2px 7px #adadad;
 			background-image: url("/images/background.png");
 			background-color: #9e1a1a;
-				  height: 1000px;
+				  height: 1500px;
 				  background-position: center;
 				  background-repeat: no-repeat;
 				  background-size: cover;
 				  position: relative;
 				} 
+
+		h1 {
+			font-family: Avenir Next;
+			font-weight: normal;
+			font-size: 240px;
+			letter-spacing: 1.5em;
+			text-shadow: 4px 4px 7px #f1e9e9;
+		}
+
+		h2 {
+			font-family: Avenir Next;
+			font-weight: normal;
+			font-size: 120px;
+			letter-spacing: .75em;
+			text-shadow: 4px 4px 7px #230202;
+		}
 		
 		p {
 			font-family: Avenir Next;
