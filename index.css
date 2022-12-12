@@ -30,7 +30,7 @@
 			text-shadow: 4px 4px 7px #230202;
 			}
 
-	.hero-image {
+	/* .hero-image {
 			background-image: url("/images/background.png");
 			background-color: #8c0e0e;
 			height: 500px;
@@ -47,7 +47,7 @@
 			left: 50%;
 			transform: translate(-50%, -50%);
 			color: white;
-		  }
+		  } */
 				 
 #studio-name {
 			font-family: Avenir Next;
