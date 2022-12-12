@@ -6,9 +6,7 @@
     <link href="index.css" rel="stylesheet" type="text.css"/>
     <style>
       .hero-image {
-			background-image: url("/images/SAIOS Sample 2022-11-10 at 15.48.21.png");
-			background-color: #8c0e0e;
-			width: cover;
+			background-image: url("images/SAIOS Sample 2022-11-10 at 15.48.21.png");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -23,7 +21,13 @@
 			transform: translate(-50%, -50%);
 			color: white;
 		  }
-
+      #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      width: cover; 
+      height: cover;
+}
     #header-pages {
 				position: fixed;
 				top: o;
@@ -32,18 +36,37 @@
 				width: 100%;
 				padding: 20px; 
 			  } 
-        
+    #myBtn {
+      width: 200px;
+      font-size: 18px;
+      padding: 9px 16px;
+      border: 2px dotted rgb(239, 85, 14);
+      border-radius: 8px;
+      background: #5cb4e7;
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+    }
+
+    #myBtn:hover {
+  background: black;
+  color: #5cb4e7;
+}
+
     </style>
     </head>
         <body>
-
-        </div>
+          
+          <video width:100% controls autoplay muted loop id="myVideo">
+            <source src="images/16mm Proj SHORT Loop.mp4" type="video/mp4"></video>
+  
         <div class="hero-image">
             <div class="hero-text">
                 <h1 style="font-size:50px"> <a href="about.html">gbStudioNYC</a>
                 </h1>
               <h2>Intermedia / Projection / Installation / Performance </h2>
-              <button>contact: gbellon [at] me [dot] com</button>
+              <div id="contact">
+              <button id="myBtn"> contact: gbellon [at] me [dot] com</button>
+            </div>
             </div>
           </div>
 
