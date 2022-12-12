@@ -18,7 +18,7 @@ body {
 
 #myVideo {
   position: fixed;
-  right: 50%;
+  right: 0;
   bottom: 0;
   width: cover; 
   height: cover;
@@ -58,7 +58,7 @@ body {
   padding: 9px 16px;
   border: 2px dotted rgb(243, 137, 39);
   border-radius: 8px;
-  background: rgb(189, 126, 201);
+  background: #d84adf;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
@@ -77,17 +77,16 @@ body {
 </video>
 
 <div class="header-pages">
-  <a style="font-weight:bold;color:#8DBFF4"> home</a> | <a style="color:#fff993"; href="timeline.html">gbTimeline</a> | 
+  <a style="font-weight:bold;color:#93FFF9"> home</a> | <a style="color:#fff993"; href="timeline.html">gbTimeline</a> | 
   <a style="color:#fff993"; href="gbVimeo.html">gbVimeo</a> |
   <a style="color:#fff993"; href="PCNY.html">Production Consolidated of NY</a>
 </div>
 
 <div style="border:2px solid rgba(130, 9, 174)"; class="hero-text">
   <h1 style="font-size:xx-large">GBStudio_NYC</h1>
-  <p style="color: #000;background-color: #FFF933;"> _🅘🅝🅣🅔🅡🅜🅔🅓🅘🅐 / 🅟🅔🅡🅕🅞🅡🅜🅐🅝🅒🅔 / 🅘🅝🅢🅣🅐🅛🅛🅐🅣🅘🅞🅝 / 🅓🅔🅢🅘🅖🅝 _</p>
+  <p style="color: #FFF933;background-color:#000;"> _🅘🅝🅣🅔🅡🅜🅔🅓🅘🅐 / 🅟🅔🅡🅕🅞🅡🅜🅐🅝🅒🅔 / 🅘🅝🅢🅣🅐🅛🅛🅐🅣🅘🅞🅝 / 🅓🅔🅢🅘🅖🅝 _</p>
   <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
-  <button id="myBtn" href="/ogindex.html">ENTER/ ENTREN> 
-  </button>
+  <button id="myBtn" <a href="/ogindex.html">ENTER/ ENTREN</a></button>
 </div>
 
 <script>
@@ -95,13 +94,16 @@ var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 
 function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
+<a href="/ogindex.html">GB HOME</a>;
+}
+// function myFunction() {
+//   if (video.paused) {
+//     video.play();
+//     btn.innerHTML = "Pause";
+//   } else {
+//     video.pause();
+//     btn.innerHTML = "Play";
+//   }
 }
 </script>
 
