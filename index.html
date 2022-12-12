@@ -56,7 +56,8 @@ body {
   width: 200px;
   font-size: 18px;
   padding: 10px;
-  border: none;
+  border: 4px dotted rgba(130, 139, 0, 125);
+  border-radius: 8px;
   background: #000;
   color: #fff;
   cursor: pointer;
@@ -70,18 +71,18 @@ body {
 </head>
 <body>
 
-<video width:cover autoplay muted loop id="myVideo">
+<video width:cover controls autoplay muted loop id="myVideo">
   <source src="/images/SAIOS Open Vid Feedback.mp4" type="video/mp4" alt="The white light of video pulsing as it feedbacks from the camera feed back onto itself" >
   Your browser does not support HTML5 video.
 </video>
 
-<div class="header-pages">
-  <a style="font-weight:bold"> home</a> | <a href="timeline.html">gbTimeline</a> | 
+<div style="color:#fff993"; class="header-pages">
+  <a style="font-weight:bold;color:#8DBFF4"> home</a> | <a href="timeline.html">gbTimeline</a> | 
   <a href="gbVimeo.html">gbVimeo</a> |
   <a href="PCNY.html">Production Consolidated of NY</a>
 </div>
 
-<div style="border:2px solid rgb(130, 9, 174, 125)"; class="hero-text">
+<div style="border:2px solid rgba(130, 9, 174, 125)"; class="hero-text">
   <h1 style="font-size:xx-large">GBStudio_NYC</h1>
   <p style="font-weight:bold"> _Ⓘⓝⓣⓔⓡⓜⓔⓓⓘⓐ / Ⓟⓔⓡⓕⓞⓡⓜⓐⓝⓒⓔ / Ⓘⓝⓢⓣⓐⓛⓛⓐⓣⓘⓞⓝ / Ⓓⓔⓢⓘⓖⓝ_</p>
   <button id="myBtn" onclick="myFunction()">Pause</button>
