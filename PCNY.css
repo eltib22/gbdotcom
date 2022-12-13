@@ -37,7 +37,7 @@ div {
 			
 		}      
             
-.description {
+#description {
 		margin: 60px;
 		line-height: 1.5em;
 		border: 14px solid rgb(255,0,54);
