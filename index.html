@@ -41,9 +41,9 @@ body {
   padding: 20px; 
 }
 .hero-image {
-			background-image: url("/images/GB stamp 2.png");
+			background-image: url("images/GB stamp 2.png");
 			/* background-color: #8c0e0e; */
-      height: 450px;
+      height: 750px;
 			background-position: center;
 			background-repeat: no-repeat;
 			position: relative;
@@ -52,13 +52,14 @@ body {
 .hero-text {
 			text-align: center;
 			position: absolute;
-			top: 25%;
+			top: 50%;
 			left: 50%;
-			/* transform: translate(-50%, -50%); */
+			transform: translate(-50%, -50%);
       border: 12px solid rgba(153, 24, 213. 0.5);
-      border-radius: 8px;
-			color: rgba(153, 24, 213);
-      text-shadow: 4px 4px 7px #020202;
+      background-color: rgba(0, 0, 0, 0.25);
+      border-radius: 128px;
+			color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 2px #f2eeee;
 		  }
 
 #myBtn {
@@ -68,17 +69,18 @@ body {
   border: 2px dotted rgb(243, 137, 39);
   border-radius: 8px;
   background: #d84adf;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
-#Btns {
+#Btn2 {
   width: 200px;
   font-size: 18px;
+  text-align: justify;
   padding: 5px 12px;
   border: 2px dotted rgb(243, 137, 39);
   border-radius: 8px;
   background: #d84adf;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 #myBtn:hover {
@@ -107,11 +109,10 @@ body {
 <div class="hero-image">
 <div style="border:2px solid rgba(130, 9, 174)"; class="hero-text">
   <h1 style="font-size:xx-large;font-weight:lighter">BELLÓN</h1>
-  <p style="color: #FFF933;background-color:#000;font-weight:bold"> _🇮‌🇳‌🇹‌🇪‌🇷‌🇲‌🇪‌🇩‌🇮‌🇦‌ / 🇵‌🇪‌🇷‌🇫‌🇴‌🇷‌🇲‌🇦‌🇳‌🇨‌🇪‌ / 🇮‌🇳‌🇸‌🇹‌🇦‌🇱‌🇱‌🇦‌🇹‌🇮‌🇴‌🇳‌ / 🇩‌🇪‌🇸‌🇮‌🇬‌🇳 _</p>
+  <p style="color: #FFF933;font-weight:bold"> _🇮‌🇳‌🇹‌🇪‌🇷‌🇲‌🇪‌🇩‌🇮‌🇦‌ / 🇵‌🇪‌🇷‌🇫‌🇴‌🇷‌🇲‌🇦‌🇳‌🇨‌🇪‌ / 🇮‌🇳‌🇸‌🇹‌🇦‌🇱‌🇱‌🇦‌🇹‌🇮‌🇴‌🇳‌ / 🇩‌🇪‌🇸‌🇮‌🇬‌🇳 _</p>
   <br>
-  <button id="Btn2" <p><a style="font-size:normal;color:#ecc919"; href="gbhome.html">ENTER / ENTREN</a></p></button>
-  <button id="myBtn" onclick="myFunction()">Pause</button>
-  <!-- <button id="myBtn"; onclick="<a href=/ogindex.html>ENTER/ ENTREN</a></button> -->
+  <button id="Btn2" <p><a style="font-size:lighter;color:#ecc919"; href="gbhome.html">ENTER / ENTREN</a></p></button>
+  <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
   </div>
 </div>
 
