@@ -26,7 +26,16 @@ body {
 		background-repeat: no-repeat;
 		background-position: center;
 		background-color: black;
-		}        
+		}
+
+div {
+			border: 6px solid rgb(225, 0, 45);
+			border-radius: 6px;
+			width: 75%;
+			margin: 60px;
+			padding: 50px;
+			
+		}      
             
 .description {
 		margin: 60px;
