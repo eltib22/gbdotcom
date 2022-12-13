@@ -1,7 +1,6 @@
 *{
 		color: whitesmoke;
-		font-family: Avenir Next;
-		text-align: center;
+		font-family: 'Avenir Next", monospace;
 		}
    
 li {
@@ -10,14 +9,12 @@ li {
 		}
 		
 li.pagetitle {
-		font-family: Avenir Next;
 		font-weight: bold;
 		font-size: 80px;
 		letter-spacing: .75em;
 		text-shadow: 2px 2px 7px #ab0707;
         }
 li.production {
-		font-family: Avenir Next Condensed;
 		font-weight: ultra light;
 		font-size: 40px;
 		text-shadow: 2px 2px 7px #adadad;
@@ -25,14 +22,21 @@ li.production {
 
 body {
 		background-image: url(images/elmiccopy.jpeg);
+		min-width: 100%;
 		background-repeat: no-repeat;
-		background-position: center center;
+		background-position: center;
 		background-color: black;
 		}        
             
 #description {
-		margin: 100px 200px 50px 200px;
+		margin: 20px 20px 50px 50px;
 		line-height: 1.5em;
+		border: 14px solid rgb(255,0,54);
+		border-radius: 6px;
+		font-size: 18px;
+		font-weight: lighter;
+		text-shadow: 2px 2px 6px black;
+
          }  
               
 #contact {
