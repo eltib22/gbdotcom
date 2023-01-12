@@ -36,7 +36,13 @@ li.production {
         }
 
 body {
-		background-image: url(images/elmiccopy.jpeg);
+		/* background-image: url(images/elmiccopy.jpeg); */
+		background:
+			repeating-radial-gradient(
+			circle at center,
+			  rgb(203, 17, 17) 0 10%,
+			  rgb(149, 12, 161) 10% 20%
+			);
 		min-width: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
